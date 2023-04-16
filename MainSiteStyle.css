@@ -17,3 +17,21 @@ td {
   border-collapse: collapse;
   border-color: rgb(0, 0, 0);
 }
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+.form-item{
+  display: flex;
+  gap: 80px;
+}
+.form-item p{
+  font-size: 20px;
+  margin: 0;
+}
+button{
+  width: 80px;
+  align-self: center;
+}

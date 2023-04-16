@@ -29,7 +29,7 @@
     <center>
       <table border="1" width="00%">
         <thead>
-          <tr style="height: 60px;">
+          <tr style="height: 60px">
             <th>Engineering</th>
             <th>Science</th>
             <th>Commerce</th>
@@ -37,19 +37,19 @@
           </tr>
         </thead>
         <tbody>
-          <tr style="height: 60px;">
+          <tr style="height: 60px">
             <td>B-Tech in CSE</td>
             <td>Bsc in Maths</td>
             <td>BBA</td>
             <td>Deploma in IT</td>
           </tr>
-          <tr style="height: 60px;">
+          <tr style="height: 60px">
             <td>B-Tech in ME</td>
             <td>Bsc in Chemistry</td>
             <td>MBA in Marketing</td>
             <td>Deploma in Civil</td>
           </tr>
-          <tr style="height: 60px;">
+          <tr style="height: 60px">
             <td>B-Tech in CHE</td>
             <td>Bsc in Physics</td>
             <td>MBA in Finance</td>
@@ -69,41 +69,63 @@
     </ol>
 
     <h2>Enquiry Form:</h2>
-    <form>
-      <label for="Enter your name">Name: </label>
-      <input type="text" id="Enter your name" />
-      <br />
-      <br />
-      <label for="District">District: </label>
-      <input type="text" id="District" />
-      <br />
-      <br />
-      <label for="State">State: </label>
-      <input type="text" id="State" />
-      <br />
-      <br />
-      <label for="Age">Age: </label>
-      <input type="text" id="Age" />
-      <br />
-      <br />
-      <label for="">DOB: </label>
-      <input type="text" id="" />
-      <br />
-      <br />
-      <label for="Email">Email: </label>
-      <input type="text" id="Email" />
-      <br />
-      <br />
-      <label>Gender: </label>
-      <input type="radio" name="Gender" value="Male" id="Male" />
-      <label for="Male">Male</label>
-      <input type="radio" name="Gender" value="Female" id="Female" />
-      <label for="Female">Female</label>
-      <br />
-      <br />
-      <label for="Your Special Enquiry">Your Special Enquiry</label><br />
-      <textarea id="Your Special Enquiry"></textarea><br />
-      <center><button>Submit</button></center>
-    </form>
+    <div class="form">
+      <div class="form-item">
+        <p>Name:</p>
+        <input type="text" placeholder="Enter your Name" />
+      </div>
+      <div class="form-item">
+        <p>District:</p>
+        <input type="text" placeholder="Enter your Disctrict" />
+      </div>
+      <div class="form-item">
+        <p>State:</p>
+        <input type="text" placeholder="Enter your State" />
+      </div>
+      <div class="form-item">
+        <p>Age:</p>
+        <input type="text" placeholder="Enter your Age" />
+      </div>
+      <div class="form-item">
+        <p>DOB:</p>
+        <input type="text" placeholder="Enter your DOB" />
+      </div>
+      <div class="form-item">
+        <p>Email:</p>
+        <input type="text" placeholder="Enter your Email" />
+      </div>
+      <div class="form-item">
+        <p>Gender:</p>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label class="form-check-label" for="flexRadioDefault1"> Male </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label class="form-check-label" for="flexRadioDefault1">
+            Female
+          </label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          placeholder="Your special Enquiry"
+        ></textarea>
+      </div>
+      <button type="button" class="btn btn-primary">Submit</button>
+    </div>
   </body>
 </html>
